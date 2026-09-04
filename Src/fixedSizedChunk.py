@@ -1,6 +1,7 @@
 from util import parse_all_documents, clean_text,clean_all_formats
 from llama_index.core import Document
 from typing import List
+from config import base_path
 
 
 # 按照固定大小分块
@@ -44,3 +45,9 @@ def fixed_size_chunk_documents(
         print(d.text)
 
     return chunks
+
+
+if __name__ == "__main__":
+    # 示例用法
+    input_dir = base_path/"Docs"
+    fixed_size_chunk_documents(input_dir, chunk_size=500, chunk_overlap=50)

@@ -74,7 +74,7 @@ def clean_doc(doc):
 
 
 def clean_all_formats(input_dir):
-    docs = parse_all_documents(input_dir)
+    docs = parse_all_documents(input_dir) # 注意这里已经解析了Document
     cleaned_docs = []
     for i, doc in enumerate(docs):
         cleand_doc = clean_doc(doc)
