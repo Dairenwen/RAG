@@ -21,7 +21,7 @@ def sentence_chunk_documents(
 
         sents = [
             s.strip()
-            for s in re.split(r"(?<=[。！？.!?])", text)
+            for s in re.split(r"(?<=[。！？.!?])", text) # 按照句号、问号、感叹号进行分割
             if s.strip()
         ]
         # 每次遍历max_sentences这么多的句子,合并一个块

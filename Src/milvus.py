@@ -3,6 +3,11 @@ from util import base_path
 from typing import List,Dict,Any,Optional
 from llama_index.embeddings.ollama import OllamaEmbedding
 
+embed_model = OllamaEmbedding(
+        model_name="qwen3-embedding:latest",
+        base_url="http://localhost:11434"
+    )
+
 # 1. 连接milvus
 def connect(dbpath : str) -> MilvusClient:
     global client
@@ -43,19 +48,35 @@ def drop_collection(name:str) -> None:
 def insert(collection_name: str, rows: List[Dict[str, Any]]) -> Dict:
     return get_client().insert(collection_name=collection_name, data=rows)
 
-# 9. 查询数据
+# 9. 查询数据，ids为需要查询的向量id列表，fields为需要返回的字段列表，如果为空则只返回id和vector字段
 def get_by_ids(collection_name: str, ids: List[int], fields: Optional[List[str]] = None) -> List[Dict]:
     return get_client().get(collection_name=collection_name, ids=ids, output_fields=fields)
 
 
 # 工具：获得一段文本的向量
 def get_text_vector(text: str) -> List[float]:
-    embed_model = OllamaEmbedding(
-        model_name="qwen3-embedding:latest",
-        base_url="http://localhost:11434"
-    )
     vector = embed_model.get_text_embedding(text)
     return vector
+
+
+
+# 10. 向量查询
+#  Collection、查询文本、返回数量和返回字段，
+#  先将文本转为 Embedding 向量，再在 Milvus 中进行相似度检索并返回 Top-K 结果。
+def search_by_text(
+    collection_name:str,
+    limit: int=5, # 默认返回五条最相似的结果
+    text: str="",
+    fields: Optional[List[str]] = None, 
+) -> List[List[dict]]:
+    vectors = [embed_model.get_text_embedding(text)]
+    return get_client().search(
+        collection_name=collection_name,
+        data=vectors,
+        limit=limit,
+        output_fields=fields,
+    )
+
 
 if __name__ == "__main__":
     text = "这是一个测试文本。"
@@ -67,4 +88,6 @@ if __name__ == "__main__":
     create_db("test_milvus")
     create_collection("test_collection", 4096)
     print(insert("test_collection", [{"id": 1, "vector": vector}]))
+    print(get_by_ids("test_collection", [1]))
+    print(search_by_text("test_collection", limit=5, text="这是一个测试文本。"))
 
