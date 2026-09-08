@@ -58,8 +58,6 @@ def get_text_vector(text: str) -> List[float]:
     vector = embed_model.get_text_embedding(text)
     return vector
 
-
-
 # 10. 向量查询
 #  Collection、查询文本、返回数量和返回字段，
 #  先将文本转为 Embedding 向量，再在 Milvus 中进行相似度检索并返回 Top-K 结果。
