@@ -3,6 +3,7 @@ import time
 from typing import List
 import config
 import milvus
+from llama_index.core.schema import Document
 import sentenceChunk
 
 # 提示词的模版
@@ -52,6 +53,16 @@ def index_to_milvus(doc_dir: str) -> int:
     milvus.insert(COLLECTION, rows)
     print(f"已经完成入库:{len(rows)}, 向量的维度{DIMENSION}")
     return len(rows)
+
+def index_to_milvus_by_chunks(chunks: List[Document]) -> int:
+    rows = []
+    for i, chunk in enumerate(chunks):
+        vec = milvus.embed_model.get_text_embedding(chunk.text)
+        rows.append({"id": i + 1, "vector": vec, "text": chunk.text})
+    milvus.insert(COLLECTION, rows)
+    print(f"已经完成入库:{len(rows)}, 向量的维度{DIMENSION}")
+    return len(rows)
+
 
 # 3. 实现向量检索
 def retrieve(question:str, top_k: int = 5)-> List[dict]:
