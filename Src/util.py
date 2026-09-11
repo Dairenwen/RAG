@@ -8,7 +8,7 @@ import unicodedata
 from pathlib import Path
 from typing import Generator
 from llama_index.core.llms import ChatMessage, MessageRole
-from config import base_path
+from .config import base_path
 from llama_index.llms.deepseek import DeepSeek
 import os
 from dotenv import load_dotenv
@@ -140,4 +140,3 @@ def stream_chat(
     for chunk in llm.stream_chat(messages):
         if chunk.delta:
             yield chunk.delta
-

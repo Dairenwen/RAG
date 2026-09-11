@@ -1,11 +1,13 @@
+import os
+
 from pymilvus import MilvusClient
-from util import base_path
+from .util import base_path
 from typing import List,Dict,Any,Optional
 from llama_index.embeddings.ollama import OllamaEmbedding
 
 embed_model = OllamaEmbedding(
         model_name="qwen3-embedding:latest",
-        base_url="http://localhost:11434"
+        base_url=os.getenv("OLLAMA_BASE_URL", "http://localhost:11434")
     )
 
 # 1. 连接milvus
@@ -88,4 +90,3 @@ if __name__ == "__main__":
     print(insert("test_collection", [{"id": 1, "vector": vector}]))
     print(get_by_ids("test_collection", [1]))
     print(search_by_text("test_collection", limit=5, text="这是一个测试文本。"))
-
