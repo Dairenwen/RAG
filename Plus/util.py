@@ -1,7 +1,7 @@
 # 工具方法文件
 import json
 from pathlib import Path
-import config
+from Plus import config
 from llama_index.core.base.embeddings.base import BaseEmbedding
 from llama_index.embeddings.ollama import OllamaEmbedding
 
