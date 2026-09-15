@@ -1,0 +1,202 @@
+[
+  {
+    "book_id": "bk_001",
+    "title": "Python编程：从入门到实践",
+    "author": "埃里克·马瑟斯",
+    "category": "计算机",
+    "floor": "三楼",
+    "zone": "理工区",
+    "status": "在馆",
+    "text": "零基础 Python 入门，涵盖变量、循环、函数、文件读写与小型项目实战，适合大一计算机公共课参考。"
+  },
+  {
+    "book_id": "bk_002",
+    "title": "流畅的Python",
+    "author": "Luciano Ramalho",
+    "category": "计算机",
+    "floor": "三楼",
+    "zone": "理工区",
+    "status": "在馆",
+    "text": "进阶 Python 读物，讲解数据模型、函数式特性、面向对象与元编程，适合有基础的同学深入阅读。"
+  },
+  {
+    "book_id": "bk_003",
+    "title": "Python网络爬虫从入门到精通",
+    "author": "李明",
+    "category": "计算机",
+    "floor": "三楼",
+    "zone": "理工区",
+    "status": "借出",
+    "text": "介绍 requests、BeautifulSoup、Scrapy 等爬虫技术，含反爬与数据清洗案例，期末项目常用参考书。"
+  },
+  {
+    "book_id": "bk_004",
+    "title": "数据结构与算法：Python语言描述",
+    "author": "迈克尔·古德温",
+    "category": "计算机",
+    "floor": "三楼",
+    "zone": "理工区",
+    "status": "在馆",
+    "text": "用 Python 讲解链表、栈、队列、树与图，配套leetcode风格习题，算法课实验常用。"
+  },
+  {
+    "book_id": "bk_005",
+    "title": "深度学习入门：基于Python的理论与实现",
+    "author": "斋藤康毅",
+    "category": "计算机",
+    "floor": "三楼",
+    "zone": "理工区",
+    "status": "在馆",
+    "text": "从感知机到 CNN、RNN，使用 NumPy 手写神经网络，人工智能选修课推荐书目。"
+  },
+  {
+    "book_id": "bk_006",
+    "title": "Java核心技术 卷I",
+    "author": "凯·霍斯特曼",
+    "category": "计算机",
+    "floor": "三楼",
+    "zone": "理工区",
+    "status": "在馆",
+    "text": "Java 基础语法、集合框架与并发入门，程序设计类课程经典教材，与 Python 无直接关系。"
+  },
+  {
+    "book_id": "bk_007",
+    "title": "红楼梦",
+    "author": "曹雪芹",
+    "category": "文学",
+    "floor": "二楼",
+    "zone": "文学区",
+    "status": "在馆",
+    "text": "中国古典四大名著之一，人文学院中国古代文学课必读，馆藏精装本含脂评。"
+  },
+  {
+    "book_id": "bk_008",
+    "title": "活着",
+    "author": "余华",
+    "category": "文学",
+    "floor": "二楼",
+    "zone": "文学区",
+    "status": "在馆",
+    "text": "当代文学代表作，讲述普通人命运起伏，现当代文学导读课推荐，借阅量常年靠前。"
+  },
+  {
+    "book_id": "bk_009",
+    "title": "百年孤独",
+    "author": "加西亚·马尔克斯",
+    "category": "文学",
+    "floor": "二楼",
+    "zone": "文学区",
+    "status": "借出",
+    "text": "魔幻现实主义经典，外国文学专题常用，含人物关系图附录，适合论文写作引用。"
+  },
+  {
+    "book_id": "bk_010",
+    "title": "中国通史",
+    "author": "吕思勉",
+    "category": "历史",
+    "floor": "一楼",
+    "zone": "社科区",
+    "status": "在馆",
+    "text": "通史类入门读物，梳理先秦至近代重大事件，中国史纲要课程参考书。"
+  },
+  {
+    "book_id": "bk_011",
+    "title": "全球通史",
+    "author": "斯塔夫里阿诺斯",
+    "category": "历史",
+    "floor": "一楼",
+    "zone": "社科区",
+    "status": "在馆",
+    "text": "从文明起源到现代世界的全球视角通史，世界史导论课常用教材。"
+  },
+  {
+    "book_id": "bk_012",
+    "title": "万历十五年",
+    "author": "黄仁宇",
+    "category": "历史",
+    "floor": "一楼",
+    "zone": "社科区",
+    "status": "借出",
+    "text": "以万历朝若干切片剖析明代政治运作，历史系讨论课高频借阅书目。"
+  },
+  {
+    "book_id": "bk_013",
+    "title": "经济学原理",
+    "author": "曼昆",
+    "category": "经济",
+    "floor": "一楼",
+    "zone": "社科区",
+    "status": "在馆",
+    "text": "微观与宏观经济学入门，含供需、弹性、GDP 与货币政策，经管学院大一必修。"
+  },
+  {
+    "book_id": "bk_014",
+    "title": "西方哲学史",
+    "author": "罗素",
+    "category": "哲学",
+    "floor": "一楼",
+    "zone": "社科区",
+    "status": "在馆",
+    "text": "从古希腊到近代哲学流派梳理，哲学导论课经典，含柏拉图、康德等章节。"
+  },
+  {
+    "book_id": "bk_015",
+    "title": "Python数据分析实战",
+    "author": "陈刚",
+    "category": "计算机",
+    "floor": "二楼",
+    "zone": "文学区",
+    "status": "在馆",
+    "text": "pandas 与 matplotlib 入门，含 CSV 清洗与可视化案例；因临时盘点误架至二楼文学区，实际属计算机类。"
+  },
+  {
+    "book_id": "bk_016",
+    "title": "机器学习",
+    "author": "周志华",
+    "category": "计算机",
+    "floor": "三楼",
+    "zone": "理工区",
+    "status": "借出",
+    "text": "西瓜书，涵盖决策树、SVM、神经网络等，人工智能专业核心教材，当前全部借出。"
+  },
+  {
+    "book_id": "bk_017",
+    "title": "围城",
+    "author": "钱钟书",
+    "category": "文学",
+    "floor": "二楼",
+    "zone": "文学区",
+    "status": "在馆",
+    "text": "现代文学讽刺小说代表作，现代文学史课程推荐，语言幽默适合休闲阅读。"
+  },
+  {
+    "book_id": "bk_018",
+    "title": "算法导论",
+    "author": "Cormen",
+    "category": "计算机",
+    "floor": "三楼",
+    "zone": "理工区",
+    "status": "在馆",
+    "text": "CLRS 经典算法教材，分治、动态规划、图算法与复杂度分析，研究生与竞赛选手常用。"
+  },
+  {
+    "book_id": "bk_019",
+    "title": "人类简史",
+    "author": "尤瓦尔·赫拉利",
+    "category": "历史",
+    "floor": "一楼",
+    "zone": "社科区",
+    "status": "在馆",
+    "text": "从认知革命到科学革命的人类文明叙事，通识课热门借阅，非严格学术史著作。"
+  },
+  {
+    "book_id": "bk_020",
+    "title": "三体",
+    "author": "刘慈欣",
+    "category": "文学",
+    "floor": "二楼",
+    "zone": "文学区",
+    "status": "在馆",
+    "text": "科幻长篇，含黑暗森林法则等设定，图书馆科幻主题书展推荐，兼涉物理与宇宙学概念。"
+  }
+]
