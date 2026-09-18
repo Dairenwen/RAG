@@ -1,0 +1,257 @@
+[
+  {
+    "id": "sanguo",
+    "title": "三国演义",
+    "scope": "东汉末年至三国归晋；刘备、关羽、张飞、曹操、诸葛亮、孙权等人物关系，以及桃园结义、过五关斩六将、赤壁之战、三顾茅庐、夷陵之战等经典桥段",
+    "entities": [
+      {"name": "刘备"},
+      {"name": "关羽"},
+      {"name": "张飞"},
+      {"name": "曹操"},
+      {"name": "诸葛亮"},
+      {"name": "孙权"}
+    ],
+    "relations": [
+      {"source": "刘备", "label": "结拜", "target": "关羽"},
+      {"source": "刘备", "label": "结拜", "target": "张飞"},
+      {"source": "刘备", "label": "二弟", "target": "关羽"},
+      {"source": "刘备", "label": "三弟", "target": "张飞"},
+      {"source": "关羽", "label": "过五关斩六将", "target": "曹操"},
+      {"source": "曹操", "label": "爱惜人才", "target": "关羽"},
+      {"source": "刘备", "label": "三顾茅庐", "target": "诸葛亮"}
+    ]
+  },
+  {
+    "id": "science",
+    "title": "近代科学史",
+    "scope": "经典物理与相对论；牛顿、爱因斯坦、伽利略、开普勒、麦克斯韦、法拉第等人的发现、师承关系与理论演进",
+    "entities": [
+      {"name": "牛顿"},
+      {"name": "爱因斯坦"},
+      {"name": "伽利略"},
+      {"name": "开普勒"},
+      {"name": "麦克斯韦"},
+      {"name": "法拉第"},
+      {"name": "万有引力定律"},
+      {"name": "狭义相对论"},
+      {"name": "广义相对论"},
+      {"name": "微积分"},
+      {"name": "电磁理论"},
+      {"name": "运动三定律"}
+    ],
+    "relations": [
+      {"source": "牛顿", "label": "发现", "target": "万有引力定律"},
+      {"source": "牛顿", "label": "提出", "target": "运动三定律"},
+      {"source": "牛顿", "label": "发明", "target": "微积分"},
+      {"source": "伽利略", "label": "影响", "target": "牛顿"},
+      {"source": "开普勒", "label": "影响", "target": "牛顿"},
+      {"source": "爱因斯坦", "label": "提出", "target": "狭义相对论"},
+      {"source": "爱因斯坦", "label": "提出", "target": "广义相对论"},
+      {"source": "狭义相对论", "label": "发展自", "target": "万有引力定律"},
+      {"source": "广义相对论", "label": "推广", "target": "狭义相对论"},
+      {"source": "爱因斯坦", "label": "继承发展", "target": "牛顿"},
+      {"source": "法拉第", "label": "奠基", "target": "电磁理论"},
+      {"source": "麦克斯韦", "label": "建立", "target": "电磁理论"},
+      {"source": "麦克斯韦", "label": "影响", "target": "爱因斯坦"},
+      {"source": "伽利略", "label": "开创", "target": "运动三定律"}
+    ]
+  },
+  {
+    "id": "zhenguan",
+    "title": "贞观之治",
+    "scope": "唐太宗李世民贞观年间治国；魏征谏言、房谋杜断、凌烟阁二十四功臣、贞观政要与开元盛世前奏",
+    "entities": [
+      {"name": "李世民"},
+      {"name": "魏征"},
+      {"name": "房玄龄"},
+      {"name": "杜如晦"},
+      {"name": "长孙皇后"},
+      {"name": "凌烟阁"},
+      {"name": "贞观之治"},
+      {"name": "玄武门之变"},
+      {"name": "李靖"},
+      {"name": "褚遂良"}
+    ],
+    "relations": [
+      {"source": "魏征", "label": "直言进谏", "target": "李世民"},
+      {"source": "房玄龄", "label": "辅佐", "target": "李世民"},
+      {"source": "杜如晦", "label": "辅佐", "target": "李世民"},
+      {"source": "房玄龄", "label": "搭档", "target": "杜如晦"},
+      {"source": "长孙皇后", "label": "劝谏", "target": "李世民"},
+      {"source": "李世民", "label": "设立", "target": "凌烟阁"},
+      {"source": "魏征", "label": "名列", "target": "凌烟阁"},
+      {"source": "李靖", "label": "名列", "target": "凌烟阁"},
+      {"source": "李世民", "label": "开创", "target": "贞观之治"},
+      {"source": "魏征", "label": "参与", "target": "贞观之治"},
+      {"source": "李世民", "label": "发动", "target": "玄武门之变"},
+      {"source": "褚遂良", "label": "侍书", "target": "李世民"}
+    ]
+  },
+  {
+    "id": "hongloumeng",
+    "title": "红楼梦",
+    "scope": "贾宝玉、林黛玉、薛宝钗、王熙凤、贾母等贾府人物关系，以及大观园、木石前盟、金玉良缘等核心线索",
+    "entities": [
+      {"name": "贾宝玉"},
+      {"name": "林黛玉"},
+      {"name": "薛宝钗"},
+      {"name": "王熙凤"},
+      {"name": "贾母"},
+      {"name": "贾政"},
+      {"name": "大观园"},
+      {"name": "金陵十二钗"},
+      {"name": "袭人"},
+      {"name": "晴雯"}
+    ],
+    "relations": [
+      {"source": "贾宝玉", "label": "爱慕", "target": "林黛玉"},
+      {"source": "贾宝玉", "label": "金玉良缘", "target": "薛宝钗"},
+      {"source": "林黛玉", "label": "寄居", "target": "贾母"},
+      {"source": "薛宝钗", "label": "寄居", "target": "贾母"},
+      {"source": "王熙凤", "label": "协理", "target": "贾母"},
+      {"source": "贾政", "label": "父子", "target": "贾宝玉"},
+      {"source": "贾宝玉", "label": "居住", "target": "大观园"},
+      {"source": "林黛玉", "label": "居住", "target": "大观园"},
+      {"source": "薛宝钗", "label": "居住", "target": "大观园"},
+      {"source": "袭人", "label": "服侍", "target": "贾宝玉"},
+      {"source": "晴雯", "label": "服侍", "target": "贾宝玉"},
+      {"source": "王熙凤", "label": "列入", "target": "金陵十二钗"},
+      {"source": "林黛玉", "label": "列入", "target": "金陵十二钗"},
+      {"source": "王熙凤", "label": "管理", "target": "大观园"}
+    ]
+  },
+  {
+    "id": "revolution",
+    "title": "辛亥革命",
+    "scope": "1894—1912 资产阶级民主革命；孙中山、黄兴、武昌起义、同盟会、中华民国临时政府与清帝退位",
+    "entities": [
+      {"name": "孙中山"},
+      {"name": "黄兴"},
+      {"name": "武昌起义"},
+      {"name": "同盟会"},
+      {"name": "袁世凯"},
+      {"name": "中华民国"},
+      {"name": "光绪帝"},
+      {"name": "慈禧太后"},
+      {"name": "黄花岗起义"},
+      {"name": "清帝退位"}
+    ],
+    "relations": [
+      {"source": "孙中山", "label": "创立", "target": "同盟会"},
+      {"source": "黄兴", "label": "参与", "target": "同盟会"},
+      {"source": "同盟会", "label": "发动", "target": "武昌起义"},
+      {"source": "武昌起义", "label": "推动", "target": "中华民国"},
+      {"source": "孙中山", "label": "就任临时大总统", "target": "中华民国"},
+      {"source": "黄兴", "label": "领导", "target": "黄花岗起义"},
+      {"source": "袁世凯", "label": "逼迫", "target": "清帝退位"},
+      {"source": "孙中山", "label": "让位", "target": "袁世凯"},
+      {"source": "慈禧太后", "label": "垂帘", "target": "光绪帝"},
+      {"source": "武昌起义", "label": "终结", "target": "清帝退位"}
+    ]
+  },
+  {
+    "id": "tcm",
+    "title": "中医药知识",
+    "scope": "常见中药材性味归经、方剂组成与主治；人参、黄芪、当归、四君子汤、六味地黄丸等关系网络",
+    "entities": [
+      {"name": "人参"},
+      {"name": "黄芪"},
+      {"name": "当归"},
+      {"name": "白术"},
+      {"name": "茯苓"},
+      {"name": "四君子汤"},
+      {"name": "六味地黄丸"},
+      {"name": "熟地黄"},
+      {"name": "山药"},
+      {"name": "山茱萸"},
+      {"name": "甘草"},
+      {"name": "气血不足"},
+      {"name": "脾胃虚弱"}
+    ],
+    "relations": [
+      {"source": "人参", "label": "组成", "target": "四君子汤"},
+      {"source": "白术", "label": "组成", "target": "四君子汤"},
+      {"source": "茯苓", "label": "组成", "target": "四君子汤"},
+      {"source": "甘草", "label": "组成", "target": "四君子汤"},
+      {"source": "四君子汤", "label": "主治", "target": "脾胃虚弱"},
+      {"source": "熟地黄", "label": "组成", "target": "六味地黄丸"},
+      {"source": "山药", "label": "组成", "target": "六味地黄丸"},
+      {"source": "山茱萸", "label": "组成", "target": "六味地黄丸"},
+      {"source": "当归", "label": "配伍", "target": "黄芪"},
+      {"source": "当归", "label": "补血", "target": "气血不足"},
+      {"source": "黄芪", "label": "补气", "target": "气血不足"},
+      {"source": "人参", "label": "大补元气", "target": "气血不足"}
+    ]
+  },
+  {
+    "id": "shuihu",
+    "title": "水浒传",
+    "scope": "北宋末年梁山好汉聚义；宋江、林冲、武松、鲁智深、李逵、晁盖等人物关系，以及逼上梁山、景阳冈打虎、智取生辰纲等经典情节",
+    "entities": [
+      {"name": "宋江"},
+      {"name": "林冲"},
+      {"name": "武松"},
+      {"name": "鲁智深"},
+      {"name": "李逵"},
+      {"name": "晁盖"},
+      {"name": "吴用"},
+      {"name": "高俅"},
+      {"name": "梁山泊"},
+      {"name": "景阳冈"},
+      {"name": "生辰纲"},
+      {"name": "招安"}
+    ],
+    "relations": [
+      {"source": "宋江", "label": "首领", "target": "梁山泊"},
+      {"source": "晁盖", "label": "奠基", "target": "梁山泊"},
+      {"source": "吴用", "label": "军师", "target": "梁山泊"},
+      {"source": "林冲", "label": "逼上", "target": "梁山泊"},
+      {"source": "武松", "label": "投奔", "target": "梁山泊"},
+      {"source": "鲁智深", "label": "投奔", "target": "梁山泊"},
+      {"source": "李逵", "label": "追随", "target": "宋江"},
+      {"source": "高俅", "label": "陷害", "target": "林冲"},
+      {"source": "武松", "label": "打虎于", "target": "景阳冈"},
+      {"source": "吴用", "label": "智取", "target": "生辰纲"},
+      {"source": "晁盖", "label": "参与", "target": "生辰纲"},
+      {"source": "宋江", "label": "接受", "target": "招安"},
+      {"source": "李逵", "label": "反对", "target": "招安"},
+      {"source": "鲁智深", "label": "反对", "target": "招安"},
+      {"source": "宋江", "label": "结义", "target": "武松"}
+    ]
+  },
+  {
+    "id": "xiyou",
+    "title": "西游记",
+    "scope": "唐僧师徒西天取经；孙悟空、猪八戒、沙僧、白龙马与各路妖魔鬼怪的关系，以及大闹天宫、三打白骨精、火焰山等情节",
+    "entities": [
+      {"name": "孙悟空"},
+      {"name": "唐僧"},
+      {"name": "猪八戒"},
+      {"name": "沙僧"},
+      {"name": "白龙马"},
+      {"name": "观音菩萨"},
+      {"name": "如来佛祖"},
+      {"name": "白骨精"},
+      {"name": "牛魔王"},
+      {"name": "火焰山"},
+      {"name": "大闹天宫"},
+      {"name": "西天取经"}
+    ],
+    "relations": [
+      {"source": "唐僧", "label": "师父", "target": "孙悟空"},
+      {"source": "唐僧", "label": "师父", "target": "猪八戒"},
+      {"source": "唐僧", "label": "师父", "target": "沙僧"},
+      {"source": "白龙马", "label": "坐骑", "target": "唐僧"},
+      {"source": "观音菩萨", "label": "点化", "target": "孙悟空"},
+      {"source": "观音菩萨", "label": "安排", "target": "西天取经"},
+      {"source": "孙悟空", "label": "保护", "target": "唐僧"},
+      {"source": "孙悟空", "label": "发起", "target": "大闹天宫"},
+      {"source": "如来佛祖", "label": "镇压", "target": "孙悟空"},
+      {"source": "孙悟空", "label": "三打", "target": "白骨精"},
+      {"source": "牛魔王", "label": "占据", "target": "火焰山"},
+      {"source": "孙悟空", "label": "借扇灭", "target": "火焰山"},
+      {"source": "唐僧", "label": "完成", "target": "西天取经"},
+      {"source": "如来佛祖", "label": "封佛", "target": "孙悟空"}
+    ]
+  }
+]
