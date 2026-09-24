@@ -111,6 +111,6 @@ if __name__ == "__main__":
     index = build_index(nodes)
     while True:
         query = input("\n请输入查询: ").strip()
-        print("\n" + compare_single_query(query, index))
+        print(compare_single_query(query, index))
         print("--------------------------------")
-        print("\n" + compare_hyde_query(query, index))
+        print(compare_hyde_query(query, index))
