@@ -1,0 +1,218 @@
+[
+  {
+    "doc_id": "med_001",
+    "disease_name": "2型糖尿病",
+    "symptom_text": "典型症状为多饮、多尿、易饿、体重下降；诊断需检测空腹血糖与糖化血红蛋白 HbA1c。",
+    "department": "内分泌科"
+  },
+  {
+    "doc_id": "med_002",
+    "disease_name": "高血压",
+    "symptom_text": "多数患者无明显症状，部分出现头痛、头晕；确诊依赖多次血压测量，收缩压≥140mmHg 或舒张压≥90mmHg。",
+    "department": "心血管内科"
+  },
+  {
+    "doc_id": "med_003",
+    "disease_name": "急性阑尾炎",
+    "symptom_text": "右下腹转移性疼痛、麦氏点压痛、可伴发热与白细胞升高，需外科评估是否阑尾切除。",
+    "department": "普通外科"
+  },
+  {
+    "doc_id": "med_004",
+    "disease_name": "支气管哮喘",
+    "symptom_text": "反复发作性喘息、气促、胸闷与咳嗽，多与过敏原接触相关，肺功能检查可辅助诊断。",
+    "department": "呼吸内科"
+  },
+  {
+    "doc_id": "med_005",
+    "disease_name": "缺铁性贫血",
+    "symptom_text": "常见乏力、面色苍白、异食癖；血常规示小细胞低色素性贫血，血清铁蛋白降低。",
+    "department": "血液内科"
+  },
+  {
+    "doc_id": "med_006",
+    "disease_name": "社区获得性肺炎",
+    "symptom_text": "发热、咳嗽、咳痰、胸痛，胸部 X 线或 CT 可见肺部浸润影，需抗感染治疗。",
+    "department": "呼吸内科"
+  },
+  {
+    "doc_id": "med_007",
+    "disease_name": "1型糖尿病",
+    "symptom_text": "青少年多发，起病急骤，多饮多食多尿伴消瘦，易诱发糖尿病酮症酸中毒，需终身胰岛素注射。",
+    "department": "内分泌科"
+  },
+  {
+    "doc_id": "med_008",
+    "disease_name": "冠心病心绞痛",
+    "symptom_text": "劳累后胸骨后压榨样疼痛，向左肩、下颌放射，休息或含服硝酸甘油数分钟缓解，冠脉CT可明确狭窄。",
+    "department": "心血管内科"
+  },
+  {
+    "doc_id": "med_009",
+    "disease_name": "急性心肌梗死",
+    "symptom_text": "持续性剧烈胸痛超过15分钟，伴大汗、濒死感、恶心呕吐，肌钙蛋白显著升高，需急诊介入溶栓。",
+    "department": "心血管内科"
+  },
+  {
+    "doc_id": "med_010",
+    "disease_name": "高脂血症",
+    "symptom_text": "早期无特异症状，长期升高可诱发动脉粥样硬化，抽血查总胆固醇、甘油三酯、低密度脂蛋白确诊。",
+    "department": "内分泌科"
+  },
+  {
+    "doc_id": "med_011",
+    "disease_name": "甲状腺功能亢进",
+    "symptom_text": "心慌手抖、怕热多汗、多食消瘦、眼球突出，甲功五项FT3、FT4升高，TSH降低。",
+    "department": "内分泌科"
+  },
+  {
+    "doc_id": "med_012",
+    "disease_name": "甲状腺功能减退",
+    "symptom_text": "畏寒乏力、嗜睡便秘、全身浮肿、记忆力减退，促甲状腺激素TSH数值明显增高。",
+    "department": "内分泌科"
+  },
+  {
+    "doc_id": "med_013",
+    "disease_name": "急性胆囊炎",
+    "symptom_text": "进食油腻后右上腹绞痛，墨菲征阳性，伴随恶心发热，腹部超声可见胆囊结石胆囊壁水肿。",
+    "department": "普通外科"
+  },
+  {
+    "doc_id": "med_014",
+    "disease_name": "输尿管结石",
+    "symptom_text": "突发腰腹部刀割样绞痛，肉眼血尿，排尿刺痛，泌尿系CT可定位结石大小与梗阻位置。",
+    "department": "泌尿外科"
+  },
+  {
+    "doc_id": "med_015",
+    "disease_name": "慢性阻塞性肺疾病COPD",
+    "symptom_text": "长期吸烟人群多见，持续性咳嗽咳痰、活动后气短，肺功能提示持续性气流受限。",
+    "department": "呼吸内科"
+  },
+  {
+    "doc_id": "med_016",
+    "disease_name": "肺结核",
+    "symptom_text": "低热盗汗、干咳咯血、体重持续下降，痰涂片找抗酸杆菌、胸部CT见肺部结核病灶。",
+    "department": "呼吸内科"
+  },
+  {
+    "doc_id": "med_017",
+    "disease_name": "溶血性贫血",
+    "symptom_text": "皮肤巩膜黄染、乏力头晕、尿色加深，网织红细胞升高，胆红素代谢指标异常。",
+    "department": "血液内科"
+  },
+  {
+    "doc_id": "med_018",
+    "disease_name": "再生障碍性贫血",
+    "symptom_text": "全血细胞减少，反复牙龈出血、皮下瘀斑、反复感染发热，骨髓穿刺造血组织增生低下。",
+    "department": "血液内科"
+  },
+  {
+    "doc_id": "med_019",
+    "disease_name": "痛风性关节炎",
+    "symptom_text": "夜间突发第一跖趾关节红肿热痛，血尿酸升高，高嘌呤饮食、饮酒可诱发急性发作。",
+    "department": "风湿免疫科"
+  },
+  {
+    "doc_id": "med_020",
+    "disease_name": "类风湿关节炎",
+    "symptom_text": "双手对称性小关节晨僵、肿胀疼痛，晚期关节畸形，类风湿因子、抗CCP抗体多为阳性。",
+    "department": "风湿免疫科"
+  },
+  {
+    "doc_id": "med_021",
+    "disease_name": "脑梗死",
+    "symptom_text": "突发单侧肢体无力、口角歪斜、言语不清，头颅DWI核磁可见新发缺血病灶，多由动脉硬化引发。",
+    "department": "神经内科"
+  },
+  {
+    "doc_id": "med_022",
+    "disease_name": "偏头痛",
+    "symptom_text": "单侧搏动性剧烈头痛，畏光畏声，恶心呕吐，劳累、熬夜、咖啡因可诱发反复发作。",
+    "department": "神经内科"
+  },
+  {
+    "doc_id": "med_023",
+    "disease_name": "腰椎间盘突出症",
+    "symptom_text": "腰痛伴随一侧下肢放射性麻木疼痛，弯腰负重加重，腰椎MRI可见椎间盘压迫神经根。",
+    "department": "骨科"
+  },
+  {
+    "doc_id": "med_024",
+    "disease_name": "膝骨关节炎",
+    "symptom_text": "中老年多见，膝关节活动疼痛、僵硬、活动弹响，下蹲上下楼梯痛感加剧，X光见骨质增生。",
+    "department": "骨科"
+  },
+  {
+    "doc_id": "med_025",
+    "disease_name": "慢性胃炎",
+    "symptom_text": "上腹隐痛、腹胀嗳气、餐后饱胀，幽门螺杆菌感染高发，胃镜可见胃黏膜充血糜烂。",
+    "department": "消化内科"
+  },
+  {
+    "doc_id": "med_026",
+    "disease_name": "胃溃疡",
+    "symptom_text": "餐后半小时至1小时上腹部疼痛，空腹缓解，严重可出现黑便、消化道出血。",
+    "department": "消化内科"
+  },
+  {
+    "doc_id": "med_027",
+    "disease_name": "反流性食管炎",
+    "symptom_text": "烧心反酸、胸骨后灼热感，夜间平卧加重，胃镜可见食管下段黏膜糜烂损伤。",
+    "department": "消化内科"
+  },
+  {
+    "doc_id": "med_028",
+    "disease_name": "病毒性感冒",
+    "symptom_text": "流涕鼻塞、咽痛低热、全身肌肉酸痛，无脓性黄痰，血常规提示淋巴细胞比例升高。",
+    "department": "呼吸内科"
+  },
+  {
+    "doc_id": "med_029",
+    "disease_name": "尿路感染膀胱炎",
+    "symptom_text": "尿频尿急尿痛，下腹坠胀，尿液浑浊，尿常规白细胞、红细胞数值超标。",
+    "department": "泌尿外科"
+  },
+  {
+    "doc_id": "med_030",
+    "disease_name": "帕金森病",
+    "symptom_text": "静止性震颤、肢体僵硬、行动迟缓、步态慌张，多见于中老年大脑多巴胺分泌不足。",
+    "department": "神经内科"
+  },
+  {
+    "doc_id": "med_031",
+    "disease_name": "干眼症",
+    "symptom_text": "眼干异物感、畏光、视物短暂模糊，长时间看电子屏幕加重，泪液分泌试验数值偏低。",
+    "department": "眼科"
+  },
+  {
+    "doc_id": "med_032",
+    "disease_name": "过敏性鼻炎",
+    "symptom_text": "连续打喷嚏、流清水涕、鼻痒眼痒，春秋花粉、尘螨接触后症状明显加重。",
+    "department": "耳鼻喉科"
+  },
+  {
+    "doc_id": "med_033",
+    "disease_name": "带状疱疹",
+    "symptom_text": "单侧皮肤成簇水疱，沿神经走行分布，剧烈烧灼样神经痛，免疫力低下人群易发。",
+    "department": "皮肤科"
+  },
+  {
+    "doc_id": "med_034",
+    "disease_name": "湿疹",
+    "symptom_text": "皮肤红斑丘疹、剧烈瘙痒、渗出结痂，反复迁延，接触刺激性化学品易诱发加重。",
+    "department": "皮肤科"
+  },
+  {
+    "doc_id": "med_035",
+    "disease_name": "高尿酸血症",
+    "symptom_text": "无症状期多见，尿酸持续超标可沉积关节肾脏，逐步诱发痛风、肾结石病变。",
+    "department": "内分泌科"
+  },
+  {
+    "doc_id": "med_036",
+    "disease_name": "病毒性心肌炎",
+    "symptom_text": "感冒后出现心慌胸闷、活动气短、心律失常，心肌酶肌钙蛋白升高，需卧床营养心肌治疗。",
+    "department": "心血管内科"
+  }
+]

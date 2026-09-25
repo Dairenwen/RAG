@@ -6,7 +6,11 @@ CHUNK_DATA_DIR=(Path(__file__).parent
     / "data"
 )
 PRERETRIEVE_DATA_DIR=(Path(__file__).parent
-    / "preretrieve"
+    / "preretrieval"
+    / "data"
+)
+RETRIEVAL_DATA_PATH=(Path(__file__).parent
+    / "retrieval"
     / "data"
 )
 OLLAMA_BASE_URL = "http://localhost:11434"
