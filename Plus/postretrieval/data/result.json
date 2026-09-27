@@ -1,0 +1,422 @@
+[
+    {
+        "doc_id": "shop_001",
+        "shop_name": "芋泥鲜奶茶专门店",
+        "query_similarity": 0.86,
+        "desc_text": "三分糖热芋泥鲜奶，低脂奶源，无奶油添加",
+        "meta_info": {
+            "distance_m": 220,
+            "avg_price": 16,
+            "closing_time": "23:00",
+            "tag": ["现煮原料", "外卖可达"]
+        }
+    },
+    {
+        "doc_id": "shop_002",
+        "shop_name": "甜糯奶茶铺",
+        "query_similarity": 0.92,
+        "desc_text": "热芋泥奶茶，搭配炼乳奶油顶，口感浓郁",
+        "meta_info": {
+            "distance_m": 180,
+            "avg_price": 18,
+            "closing_time": "22:30",
+            "tag": ["奶油加料", "线下门店"]
+        }
+    },
+    {
+        "doc_id": "shop_003",
+        "shop_name": "抹茶芋泥茶饮馆",
+        "query_similarity": 0.78,
+        "desc_text": "冰款抹茶芋泥，全糖搭配珍珠配料",
+        "meta_info": {
+            "distance_m": 260,
+            "avg_price": 15,
+            "closing_time": "22:00",
+            "tag": ["抹茶系列", "冰饮为主"]
+        }
+    },
+    {
+        "doc_id": "shop_004",
+        "shop_name": "速溶奶茶批发店",
+        "query_similarity": 0.81,
+        "desc_text": "速溶粉冲泡芋泥奶茶，冷热均可，批量售卖",
+        "meta_info": {
+            "distance_m": 150,
+            "avg_price": 9,
+            "closing_time": "24:00",
+            "tag": ["粉剂原料", "批发商用"]
+        }
+    },
+    {
+        "doc_id": "shop_005",
+        "shop_name": "午后甜铺",
+        "query_similarity": 0.62,
+        "desc_text": "常温瓶装芋泥饮品，含糖量极高",
+        "meta_info": {
+            "distance_m": 100,
+            "avg_price": 12,
+            "closing_time": "21:00",
+            "tag": ["瓶装饮料", "商超供货"]
+        }
+    },
+    {
+        "doc_id": "shop_006",
+        "shop_name": "城市奶茶工坊",
+        "query_similarity": 0.88,
+        "desc_text": "三分糖热芋泥低脂奶，无额外糖油",
+        "meta_info": {
+            "distance_m": 450,
+            "avg_price": 17,
+            "closing_time": "23:30",
+            "tag": ["低脂鲜奶", "现做茶饮"]
+        }
+    },
+    {
+        "doc_id": "shop_007",
+        "shop_name": "糯香饮品小屋",
+        "query_similarity": 0.84,
+        "desc_text": "热芋泥牛乳，三分糖，零奶油低脂配方",
+        "meta_info": {
+            "distance_m": 280,
+            "avg_price": 22,
+            "closing_time": "22:00",
+            "tag": ["手工芋泥", "堂食优先"]
+        }
+    },
+    {
+        "doc_id": "shop_008",
+        "shop_name": "轻卡芋泥茶屋",
+        "query_similarity": 0.89,
+        "desc_text": "无糖热芋泥燕麦奶，现熬芋泥，健身人群推荐",
+        "meta_info": {
+            "distance_m": 195,
+            "avg_price": 14,
+            "closing_time": "22:30",
+            "tag": ["低脂鲜奶", "外卖可达"]
+        }
+    },
+    {
+        "doc_id": "shop_009",
+        "shop_name": "鲜果芋泥实验室",
+        "query_similarity": 0.87,
+        "desc_text": "热芋泥纯牛奶三分糖，无植脂末无添加",
+        "meta_info": {
+            "distance_m": 240,
+            "avg_price": 18,
+            "closing_time": "23:00",
+            "tag": ["现煮原料", "现做茶饮"]
+        }
+    },
+    {
+        "doc_id": "shop_010",
+        "shop_name": "禾田茶饮",
+        "query_similarity": 0.83,
+        "desc_text": "低脂芋泥鲜乳热饮，零蔗糖可选，堂食外带均可",
+        "meta_info": {
+            "distance_m": 120,
+            "avg_price": 15,
+            "closing_time": "21:30",
+            "tag": ["低脂鲜奶", "外卖可达"]
+        }
+    },
+    {
+        "doc_id": "shop_011",
+        "shop_name": "清润芋泥铺",
+        "query_similarity": 0.80,
+        "desc_text": "代糖热芋泥奶茶，低卡配方，适合控糖人群",
+        "meta_info": {
+            "distance_m": 88,
+            "avg_price": 13,
+            "closing_time": "22:00",
+            "tag": ["现煮原料", "堂食优先"]
+        }
+    },
+    {
+        "doc_id": "shop_012",
+        "shop_name": "晨间芋泥站",
+        "query_similarity": 0.85,
+        "desc_text": "热芋泥豆乳低脂配方，早餐时段供应",
+        "meta_info": {
+            "distance_m": 210,
+            "avg_price": 16,
+            "closing_time": "20:00",
+            "tag": ["低脂鲜奶", "外卖可达"]
+        }
+    },
+    {
+        "doc_id": "shop_013",
+        "shop_name": "奶茶便利店",
+        "query_similarity": 0.71,
+        "desc_text": "芋泥风味勾兑饮品，即买即走",
+        "meta_info": {
+            "distance_m": 60,
+            "avg_price": 10,
+            "closing_time": "24:00",
+            "tag": ["商超供货", "外卖可达"]
+        }
+    },
+    {
+        "doc_id": "shop_014",
+        "shop_name": "街边芋泥小摊",
+        "query_similarity": 0.68,
+        "desc_text": "芋泥波波大杯加料，便宜大碗",
+        "meta_info": {
+            "distance_m": 45,
+            "avg_price": 8,
+            "closing_time": "23:30",
+            "tag": ["线下门店"]
+        }
+    },
+    {
+        "doc_id": "shop_015",
+        "shop_name": "网红打卡芋泥馆",
+        "query_similarity": 0.74,
+        "desc_text": "芋泥雪顶拍照套餐，颜值优先",
+        "meta_info": {
+            "distance_m": 310,
+            "avg_price": 26,
+            "closing_time": "22:00",
+            "tag": ["堂食优先"]
+        }
+    },
+    {
+        "doc_id": "shop_016",
+        "shop_name": "浓醇香芋铺",
+        "query_similarity": 0.91,
+        "desc_text": "芋泥奶茶配奶油雪顶炼乳淋面，口感绵密",
+        "meta_info": {
+            "distance_m": 170,
+            "avg_price": 19,
+            "closing_time": "23:00",
+            "tag": ["奶油加料", "线下门店"]
+        }
+    },
+    {
+        "doc_id": "shop_017",
+        "shop_name": "甜蜜三重奏",
+        "query_similarity": 0.86,
+        "desc_text": "全糖芋泥黑糖波波厚乳茶，甜度爆表",
+        "meta_info": {
+            "distance_m": 230,
+            "avg_price": 17,
+            "closing_time": "22:30",
+            "tag": ["奶油加料", "外卖可达"]
+        }
+    },
+    {
+        "doc_id": "shop_018",
+        "shop_name": "芝士芋泥天堂",
+        "query_similarity": 0.79,
+        "desc_text": "厚奶油芝士芋泥奶盖，热量较高慎选",
+        "meta_info": {
+            "distance_m": 290,
+            "avg_price": 20,
+            "closing_time": "22:00",
+            "tag": ["奶油加料", "堂食优先"]
+        }
+    },
+    {
+        "doc_id": "shop_019",
+        "shop_name": "茶屿芋泥轩",
+        "query_similarity": 0.82,
+        "desc_text": "抹茶芋泥双拼冰沙，夏季限定",
+        "meta_info": {
+            "distance_m": 155,
+            "avg_price": 16,
+            "closing_time": "22:00",
+            "tag": ["抹茶系列", "冰饮为主"]
+        }
+    },
+    {
+        "doc_id": "shop_020",
+        "shop_name": "连锁冲泡站",
+        "query_similarity": 0.77,
+        "desc_text": "速溶粉芋泥奶茶自助机，即冲即饮",
+        "meta_info": {
+            "distance_m": 90,
+            "avg_price": 7,
+            "closing_time": "24:00",
+            "tag": ["粉剂原料", "商超供货"]
+        }
+    },
+    {
+        "doc_id": "shop_021",
+        "shop_name": "超市饮品专柜",
+        "query_similarity": 0.76,
+        "desc_text": "瓶装芋泥乳茶即开即饮，常温保存",
+        "meta_info": {
+            "distance_m": 110,
+            "avg_price": 11,
+            "closing_time": "22:00",
+            "tag": ["瓶装饮料", "商超供货"]
+        }
+    },
+    {
+        "doc_id": "shop_022",
+        "shop_name": "烘焙茶饮坊",
+        "query_similarity": 0.88,
+        "desc_text": "芋泥红茶加奶油忌廉顶，搭配蛋挞售卖",
+        "meta_info": {
+            "distance_m": 200,
+            "avg_price": 18,
+            "closing_time": "21:00",
+            "tag": ["奶油加料", "堂食优先"]
+        }
+    },
+    {
+        "doc_id": "shop_023",
+        "shop_name": "郊区芋泥庄园",
+        "query_similarity": 0.90,
+        "desc_text": "三分糖热芋泥低脂奶现熬，田园风味",
+        "meta_info": {
+            "distance_m": 520,
+            "avg_price": 16,
+            "closing_time": "20:30",
+            "tag": ["低脂鲜奶", "现做茶饮"]
+        }
+    },
+    {
+        "doc_id": "shop_024",
+        "shop_name": "大学城芋泥分店",
+        "query_similarity": 0.86,
+        "desc_text": "热芋泥鲜奶零奶油，学生优惠套餐",
+        "meta_info": {
+            "distance_m": 380,
+            "avg_price": 14,
+            "closing_time": "23:00",
+            "tag": ["低脂鲜奶", "外卖可达"]
+        }
+    },
+    {
+        "doc_id": "shop_025",
+        "shop_name": "高端手作茶艺馆",
+        "query_similarity": 0.91,
+        "desc_text": "精品芋泥有机鲜奶三分糖，限量供应",
+        "meta_info": {
+            "distance_m": 250,
+            "avg_price": 28,
+            "closing_time": "21:00",
+            "tag": ["手工芋泥", "堂食优先"]
+        }
+    },
+    {
+        "doc_id": "shop_026",
+        "shop_name": "轻奢茶饮沙龙",
+        "query_similarity": 0.87,
+        "desc_text": "热芋泥轻乳低脂配方，私密包间体验",
+        "meta_info": {
+            "distance_m": 190,
+            "avg_price": 25,
+            "closing_time": "22:30",
+            "tag": ["手工芋泥", "堂食优先"]
+        }
+    },
+    {
+        "doc_id": "shop_027",
+        "shop_name": "空白招牌饮品店",
+        "query_similarity": 0.82,
+        "desc_text": "",
+        "meta_info": {
+            "distance_m": 130,
+            "avg_price": 15,
+            "closing_time": "22:00",
+            "tag": ["线下门店"]
+        }
+    },
+    {
+        "doc_id": "shop_028",
+        "shop_name": "???乱码门店???",
+        "query_similarity": 0.80,
+        "desc_text": "???乱码商品???",
+        "meta_info": {
+            "distance_m": 160,
+            "avg_price": 14,
+            "closing_time": "22:00",
+            "tag": ["线下门店"]
+        }
+    },
+    {
+        "doc_id": "shop_029",
+        "shop_name": "极限瘦身芋泥馆",
+        "query_similarity": 0.84,
+        "desc_text": "违规宣传一周瘦十斤芋泥代餐",
+        "meta_info": {
+            "distance_m": 175,
+            "avg_price": 19,
+            "closing_time": "22:00",
+            "tag": ["现煮原料"]
+        }
+    },
+    {
+        "doc_id": "shop_030",
+        "shop_name": "邻家芋泥铺",
+        "query_similarity": 0.75,
+        "desc_text": "热芋泥牛奶三分糖低脂，社区老店",
+        "meta_info": {
+            "distance_m": 299,
+            "avg_price": 20,
+            "closing_time": "22:30",
+            "tag": ["低脂鲜奶", "外卖可达"]
+        }
+    },
+    {
+        "doc_id": "shop_031",
+        "shop_name": "社区茶饮角",
+        "query_similarity": 0.81,
+        "desc_text": "热芋泥鲜奶茶少糖低脂，步行可达",
+        "meta_info": {
+            "distance_m": 301,
+            "avg_price": 17,
+            "closing_time": "21:30",
+            "tag": ["现煮原料", "外卖可达"]
+        }
+    },
+    {
+        "doc_id": "shop_032",
+        "shop_name": "珍珠芋泥工坊",
+        "query_similarity": 0.83,
+        "desc_text": "热芋泥奶茶加珍珠椰果双料，口感丰富",
+        "meta_info": {
+            "distance_m": 140,
+            "avg_price": 16,
+            "closing_time": "23:00",
+            "tag": ["现煮原料", "外卖可达"]
+        }
+    },
+    {
+        "doc_id": "shop_033",
+        "shop_name": "冰爽芋泥站",
+        "query_similarity": 0.79,
+        "desc_text": "冰芋泥拿铁低脂奶底，少冰三分糖",
+        "meta_info": {
+            "distance_m": 215,
+            "avg_price": 18,
+            "closing_time": "23:30",
+            "tag": ["低脂鲜奶", "冰饮为主"]
+        }
+    },
+    {
+        "doc_id": "shop_034",
+        "shop_name": "深夜芋泥食堂",
+        "query_similarity": 0.88,
+        "desc_text": "热芋泥燕麦奶无糖，深夜营业至凌晨",
+        "meta_info": {
+            "distance_m": 265,
+            "avg_price": 19,
+            "closing_time": "02:00",
+            "tag": ["低脂鲜奶", "外卖可达"]
+        }
+    },
+    {
+        "doc_id": "shop_035",
+        "shop_name": "老派糖水芋泥店",
+        "query_similarity": 0.72,
+        "desc_text": "传统糖水芋泥西米露，甜品为主",
+        "meta_info": {
+            "distance_m": 185,
+            "avg_price": 12,
+            "closing_time": "21:00",
+            "tag": ["堂食优先"]
+        }
+    }
+]
